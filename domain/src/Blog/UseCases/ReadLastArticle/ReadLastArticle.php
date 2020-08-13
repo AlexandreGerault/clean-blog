@@ -4,6 +4,7 @@
 namespace AGerault\DBlog\Blog\UseCases\ReadLastArticle;
 
 
+use AGerault\DBlog\Blog\Exception\ArticleNotFoundException;
 use AGerault\DBlog\Blog\Gateway\ArticlesGateway;
 
 class ReadLastArticle
@@ -30,6 +31,7 @@ class ReadLastArticle
     /**
      * @param ReadLastArticlePresenterInterface $presenter
      * @return mixed
+     * @throws ArticleNotFoundException
      */
     public function execute(ReadLastArticlePresenterInterface $presenter)
     {

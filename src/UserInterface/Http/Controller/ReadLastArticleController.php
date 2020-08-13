@@ -35,7 +35,14 @@ class ReadLastArticleController
                 true
             );
         } catch (ArticleNotFoundException $e) {
-            dd($e);
+            return new JsonResponse($serializer->serialize([
+                'errors' => $e->getMessage(),
+                'code' => 404
+            ], 'json'),
+                Response::HTTP_NOT_FOUND,
+                [],
+                true
+            );
         }
     }
 }
