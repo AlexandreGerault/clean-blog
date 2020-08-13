@@ -5,7 +5,7 @@ namespace App\UserInterface\Http\Controller;
 
 
 use AGerault\DBlog\Blog\Exception\ArticleNotFoundException;
-use AGerault\DBlog\Blog\UseCases\ReadLastArticle\ReadLastArticle;
+use AGerault\DBlog\Blog\UseCase\ReadLastArticle\ReadLastArticle;
 use App\UserInterface\Presentation\ReadLastArticleHtmlPresenter;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;

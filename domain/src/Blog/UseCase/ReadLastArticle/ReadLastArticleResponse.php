@@ -1,7 +1,7 @@
 <?php
 
 
-namespace AGerault\DBlog\Blog\UseCases\ReadLastArticle;
+namespace AGerault\DBlog\Blog\UseCase\ReadLastArticle;
 
 
 use AGerault\DBlog\Blog\Entity\Article;

@@ -4,8 +4,8 @@
 namespace App\UserInterface\Presentation;
 
 
-use AGerault\DBlog\Blog\UseCases\ReadLastArticle\ReadLastArticlePresenterInterface;
-use AGerault\DBlog\Blog\UseCases\ReadLastArticle\ReadLastArticleResponse;
+use AGerault\DBlog\Blog\UseCase\ReadLastArticle\ReadLastArticlePresenterInterface;
+use AGerault\DBlog\Blog\UseCase\ReadLastArticle\ReadLastArticleResponse;
 
 class ReadLastArticleHtmlPresenter implements ReadLastArticlePresenterInterface
 {
