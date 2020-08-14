@@ -1,4 +1,9 @@
-index:
+last_article:
     path: /last-article
     methods: GET
     controller: App\UserInterface\Http\Controller\ReadLastArticleController
+
+login:
+    path: /login
+    methods: POST
+    controller: App\UserInterface\Http\Controller\LoginController
